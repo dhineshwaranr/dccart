@@ -117,7 +117,18 @@
   color:black !important;
   background-color:white !important;
 }
-
+.menu-dropdown{
+	width:auto !important;
+}
+.main-sub-menu{
+	//border:1px solid gray;
+	margin: 15px;
+	
+}
+ .menues{
+	//display:block !important;
+	min-width:1000px !important;
+} 
 .dc-main-body{
 	background-color:rgb(226, 222, 212);
 	width:1302px;
@@ -176,4 +187,30 @@
 }	
 .panel-default {
     border-color: white; 
+}
+.panel .panel-heading{
+	background-color:gray !important;
+}
+.panel .item{
+	    margin-bottom: 15px;
+    padding-top: 17px;
+	height:255px;
+	cursor:pointer;
+	-webkit-filter: grayscale(00%);
+       -moz-filter: grayscale(00%);
+       -o-filter: grayscale(00%);
+       -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.panel .item:hover{
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    
 }

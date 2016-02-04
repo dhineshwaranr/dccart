@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>Online Shopping</title>
+<title>Online Shopping India</title>
 <%@ include file="commonCSS.jsp"%>
 </head>
 <body>
@@ -36,42 +36,100 @@
 					<div class="col-lg-8 content-body">
 						<div class="row-fluid">
 							<div class="panel panel-default">
-								<div class="panel-heading">Panel Heading</div>
-								<div class="col-sm-4">asdasdasdasdas1</div>
-								<div class="col-sm-4">asdasdasdasdas2</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
+								<div class="panel-heading">Special Offer</div>
+								<div class="item col-sm-4">asdasdasdasdas1</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
 							</div>
 						</div>
 						<div class="row-fluid">
 							<div class="panel panel-default">
-								<div class="panel-heading">Panel Heading</div>
-								<div class="col-sm-4">asdasdasdasdas1</div>
-								<div class="col-sm-4">asdasdasdasdas2</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
+								<div class="panel-heading">SMARTPHONES</div>
+								<div class="item col-sm-4">asdasdasdasdas1</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
 							</div>
 						</div>
 						<div class="row-fluid">
 							<div class="panel panel-default">
-								<div class="panel-heading">Panel Heading</div>
-								<div class="col-sm-4">asdasdasdasdas1</div>
-								<div class="col-sm-4">asdasdasdasdas2</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
+								<div class="panel-heading">DC CART FASHION SALE</div>
+								<div class="item col-sm-4">asdasdasdasdas1</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
 							</div>
 						</div>
 						<div class="row-fluid">
 							<div class="panel panel-default">
-								<div class="panel-heading">Panel Heading</div>
-								<div class="col-sm-4">asdasdasdasdas1</div>
-								<div class="col-sm-4">asdasdasdasdas2</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
-								<div class="col-sm-4">asdasdasdasdas3</div>
+								<div class="panel-heading">ELECTRONICS & AUTO</div>
+								<div class="item col-sm-4">asdasdasdasdas1</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+							</div>
+						</div>
+						<div class="row-fluid">
+							<div class="panel panel-default">
+								<div class="panel-heading">FASHION</div>
+								<div class="item col-sm-4">asdasdasdasdas1</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+							</div>
+						</div>
+						<div class="row-fluid">
+							<div class="panel panel-default">
+								<div class="panel-heading">HOME & FURNITURE</div>
+								<div class="item col-sm-4">asdasdasdasdas1</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+							</div>
+						</div>
+						<div class="row-fluid">
+							<div class="panel panel-default">
+								<div class="panel-heading">ALL OTHER STORES</div>
+								<div class="item col-sm-4">asdasdasdasdas1</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas2</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
+								<div class="item col-sm-4">asdasdasdasdas3</div>
 							</div>
 						</div>
 					</div>
