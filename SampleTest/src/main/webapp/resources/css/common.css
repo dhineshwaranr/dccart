@@ -131,14 +131,16 @@
 }
 
 .carousel-widget-ads-banners {
-  margin-left: 80px !important;
+  margin-left: 140px !important;
  
 }
 #myCarousel{
-	 margin-right: 0px !important;	
+	 margin-right: 0px !important;
+	 cursor:pointer;
 }
 .carousel-inner{
 	width:auto !important;
+	box-shadow: 6px 3px 5px #888888;
 }
 .carousel-linked-nav,
 .item img {
@@ -154,9 +156,24 @@
 .img-widget{
 	width:230px;
 	height:105px;
-	background-color:gray;
+	margin-bottom:15px;
 }
 @media (min-width: 992px)
 .col-md-12 {
   width: 860px !important;
+}
+.right-bar-widget .img-widget :hover{
+	border:2px solid yellow;
+	cursor:pointer;	
+}
+.row {
+    margin-left: 6px !important;
+}
+.content-body{
+	margin-left: 120px;
+	height:auto;
+	width:770px;
+}	
+.panel-default {
+    border-color: white; 
 }
