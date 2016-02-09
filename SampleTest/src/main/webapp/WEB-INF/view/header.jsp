@@ -72,99 +72,29 @@
 			<div class="dc-header-main-menu-content">
 				<div class="dc-header-main-static-menu">
 					<nav class="navbar" role="navigation">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav ">
 						<li class="electronics nav-menu"><a href="#">ELECTRONICS<span class="caret"></a>
 							<span></span>
 							<div class="menu-dropdown">
 								<ul class="dropdown-menu menues">
-								<div class="row">
-								<div class="col-sm-2 main-sub-menu">
-									<div class="row">
-										<a>Mobiles</a>
-										`<div>
-											<a>Samsung</a>
-											<a>Nokia</a>
-											<a>Motorola</a>
-											<a>Sony</a>
-											<a>Panasonic</a>
-										</div>
-									</div>
-									<div class="row">
-										<a>All Mobiles Brand</a>
-									</div>
-									<div class="row">
-										<a>New and Popular models</a>
-										<div>
-											<a>Honor</a>
-											<a>Moto X Force</a>
-											<a>Honer Holy</a>
-											<a>Intex Cloud</a>
-											<a>Le 1s</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-2 main-sub-menu">
-									<div class="row">
-										<a>Wearable Smart Devices</a>
-										<div>
-											<a>Smart Watch</a> <a>Smart Bands</a>
-										</div>
-									</div>
-									<div class="row">
-										<a>Automation and Robotics</a>
-									</div>
-									<div class="row">
-										<a>Tablets</a>
-										<div>
-											<a>Mi tablet</a>
-											<a>Lenova Tablet</a>
-											<a>Apple Tablet</a>
-											<a>Samsung Tablet</a>
-										</div>
-									</div>
-										<div class="row">
-										<a>Laptop</a>
-										<div>
-											<a>HP</a>
-											<a>Lenova</a>
-											<a>Dell</a>
-											<a>Asus</a>
-											<a>Acer</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-2 main-sub-menu">
-									C
-								</div>
-								<div class="col-sm-2 main-sub-menu">
-									D
-								</div>
-								<div class="col-sm-2 main-sub-menu">
-									E
-								</div>
-								</div>
+									<%@ include file="submenu/electronics.jsp"%>
 								</ul>
 							</div>
-							
 						</li>
-						<li><a href="#">MEN <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">A</a></li>
-								<li><a href="#">A</a></li>
-								<li><a href="#">S</a></li>
-							</ul>
+						<li class="men nav-menu"><a href="#">MEN <span class="caret"></span></a>
+							<div class="menu-dropdown">
+								<ul class="dropdown-menu menues">
+									<%@ include file="submenu/men.jsp"%>
+								</ul>
+							</div>
 						</li>
-						<li class="dropdown"><a href="#" class="dropdown-toggle"
-							data-toggle="dropdown">WOMEN<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Separated link</a></li>
-								<li class="divider"></li>
-								<li><a href="#">One more separated link</a></li>
-							</ul>
+						<li class="women nav-menu"><a href="#">WOMEN<span class="caret"></a>
+							<span></span>
+							<div class="menu-dropdown">
+								<ul class="dropdown-menu menues">
+									<%@ include file="submenu/women.jsp"%>
+								</ul>
+							</div>
 						</li>
 						<li><a href="#">BABY & KIDS <span class="caret"></span></a>
 							<ul class="dropdown-menu">

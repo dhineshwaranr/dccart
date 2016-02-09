@@ -1,3 +1,4 @@
+
 .container {
   padding-right: 0px !important;
   padding-left: 0px !important;
@@ -11,6 +12,7 @@
 	background-color:#027cd5;
 	
 }
+ 
 .dc-header .dc-header-toolbar{
 	padding-right: 5px !important;
   	padding-left: 5px !important;
@@ -102,8 +104,10 @@
 	
 }
 .dc-header-top-main-menu .dc-header-main-menu-content .dc-header-main-static-menu{
-	margin-left: 142px;
+	margin-left: 165px;
 	color:white;
+	font-size:12px;
+	font-weight:normal;
 }
 .navbar {
   margin-bottom: 0px;
@@ -122,12 +126,15 @@
 }
 .main-sub-menu{
 	//border:1px solid gray;
-	margin: 15px;
+	margin: 10px;
 	
 }
  .menues{
 	//display:block !important;
 	min-width:1000px !important;
+	position: fixed;
+    top: 90px;
+    left: 145px;
 } 
 .dc-main-body{
 	background-color:rgb(226, 222, 212);
@@ -212,5 +219,347 @@
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
+}
+.navbar ul li a{
+	cursor:pointer !important;
+	text-decoration:none !important;
+}
+.sub-main-menu .sub-main-menu-title{
+	font-size:14px;
+	font-weight:600;
+	color:black !important;
+}
+
+.sub-main-menu .sub-main-menu-title-sub{
+	font-size:12px;
+	font-weight:normal;
+	color:gray !important;
+	z-index: 1 !imporatant;
+	margin-left:15px;
+}
+
+.sub-main-menu .sub-main-menu-title a:hover{
+	border:1px solid yellow;
+}
+
+.sub-main-menu .sub-main-menu-title-sub a:hover{
+	border:1px solid yellow;
+}
+
+.product-main-title-top{
+	width:100%;
+	height:50px;
+} 
+
+.product-main-side-panel{
+	margin-left:150px;
+	width:300px;
+	box-shadow: 0px 1px 6px #888888;
+}
+
+.product-sub-main-menu .product-sub-main-menu-title{
+	color:gray;
+	
+}
+
+.product-sub-main-menu >.product-sub-main-menu-title , .product-sub-main-menu-title-sub a{
+	line-height: 24px;
+} 
+
+.product-sub-main-menu .product-sub-main-menu-title-sub a{
+	float:left;
+    clear:left;
+    text-decoration:none !important;
+    cursor:pointer;
+    color:gray;
+    font-size:12px;
+	font-weight:normal;
     
+}
+.product-sub-main-menu .product-sub-main-menu-title-sub a:hover{
+	   color:#1a75ff;
+}
+.hline { 
+	width:100%;
+	height:1px;
+	background: gray;
+	margin-top:10px;
+	margin-bottom:10px;
+ }
+ .product-main-panel .product-main-panel-content{
+ 	width:190px;
+ 	height:177px;
+ 	border:1px solid black;
+ 	margin-top:10px;
+ 	margin-bottom:10px;
+}
+ .product-main-panel .product-main-panel-content a{
+ 	cursor:pointer;
+ }
+ .product-main-panel .product-main-panel-content:hover{
+ 	border:1px solid yellow;
+ }
+ .product-main-panel-OS .product-main-panel-OS{
+ 	 width: 130px;
+    height: 121px
+ 	/*border:1px solid black;
+ 	margin-top:10px;
+ 	margin-bottom:10px; */
+ }
+  .product-main-panel-OS .product-main-panel-OS{
+ 	cursor:pointer;
+ }
+ .product-main-panel-OS .main-fav-OS-panel{
+ 	width: 161px !important;
+ }
+ .product-main-panel-newmobile .main-new-arrived-mobiles{
+ 	width: 161px !important;
+ 	height:auto;
+ 	margin-top:15px;
+ 	//border:1px solid gray;
+}
+.product-main-panel-newmobile .main-new-arrived-mobiles:hover{
+ 	//position:fixed;
+ 	border:1px solid yellow;
+ 	cursor:pointer
+}
+.product-main-panel-newmobile .main-new-arrived-mobiles .mobile-panel .mobile-details-sec .mobile-title{
+	font-size:12px;
+	font-weight:normal;
+    
+}
+
+.product-main-panel-newmobile .main-new-arrived-mobiles .mobile-panel .mobile-visual-sec{
+	height: 130px;
+    width: 120px;
+    padding-bottom: 13px;
+    text-align: center;
+    line-height: 0;
+}
+.completethepurchase{
+	margin-left:180px;
+	margin-right:50px;
+}
+
+.product-main-panel-newmobile .main-new-arrived-mobiles .mobile-panel .mobile-details-sec{
+	float: none;
+    _position: relative;
+    _left: -3px;
+    _margin-right: -3px;
+    width: auto;
+}
+.product-main-panel-newmobile .main-new-arrived-mobiles .mobile-panel .mobile-details-sec .mobile-rating{
+	margin: 2px 0 5px 0;
+    font-size: 11px;
+    color: #848484;
+}
+.product-main-panel-newmobile .main-new-arrived-mobiles .mobile-panel .mobile-details-sec .mobile-features{
+	font-size: 11px;
+    list-style-type: disc;
+    padding-left: 0px;
+    margin-top: 4px; 
+}
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    width: 190px;
+    background: rgba(0,0,0,.8);
+    color: #f1f1f1;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+}
+.black{
+    background-color:#000000;
+    height:400px;
+    color:#FFFFFF;
+  }
+.grey{
+  //background-color:#5E5E5E;
+  max-height:auto;
+  margin-left: 170px !important;
+  margin-right: 200px !important;
+ }
+ .product-main-left-image-panel{
+ 	margin-left:150px;
+	width:300px;
+}
+.product-main-rightdetail-panel{
+	margin:40px auto;
+	padding:10px;
+}
+.innerPanel .carouselContainer .carousel {
+    list-style-type: none;
+    margin: 10px auto;
+    height: 110px;
+    width: 330px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.innerPanel .carouselContainer .carousel li .thumbContainer {
+    border: 1px solid #e5e5e5;
+    padding: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.carouselContainer .carousel li .thumbContainer .thumb {
+    width: 70px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.product-details .title-wrap .title {
+    color: #333;
+    font-size: 25px;
+    float: left;
+    margin: 0 10px 0 0;
+    line-height: 25px;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.product-details .title-wrap .subtitle {
+    color: #848484;
+    font-size: 15px;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 25px;
+}
+.product-details .tools-wrap{
+	
+	width:auto;
+	height:35px;
+	margin-top:10px;
+}
+.product-details .tools-wrap .rating .rating-stars{
+	display:inline;
+	padding:5px;
+	float:left;
+	padding: 0px 4px 0px 0px;
+}
+.product-details .tools-wrap .rating .rating-count{
+	display:inline;
+	float:left;
+	padding: 10px 7px 3px 3px;
+	font-size:10px;
+}
+.tools-wrap .reviews a{
+	color:gray;
+	font-size:12px;
+	padding: 0px 3px 5px 30px;
+}
+.tools-wrap .reviews{
+	padding: 7px 3px 5px 0px;
+	max-width: 300px;
+}
+.tools-wrap .tool-wrap-operation{
+	display:inline;
+		
+}
+/**/
+
+fieldset, label { margin: 0; padding: 0; }
+.ratings { 
+  border: none;
+  float: left;
+}
+
+.ratings > input { display: none; } 
+.ratings > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.ratings > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.ratings > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.ratings > input:checked ~ label, /* show gold star when clicked */
+.ratings:not(:checked) > label:hover, /* hover current star */
+.ratings:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.ratings > input:checked + label:hover, /* hover current star when changing rating */
+.ratings > input:checked ~ label:hover,
+.ratings > label:hover ~ input:checked ~ label, /* lighten current selection */
+.ratings > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+/**/
+
+.product-details .features-warrenty{
+	//border:1px solid black;
+	width:auto;
+	height:100px;
+	margin:5px 0px 0px 0px;
+}
+.product-details .features-warrenty .features{
+	width:310px;
+	height:100px;
+	display:inline;
+}
+.product-details .features-warrenty .warrenty{
+	width:310px;
+	height:100px;
+	display:inline;
+}
+
+.product-details .color-storage{
+	//border:1px solid black;
+	width:auto;
+	height:100px;
+	margin:5px 0px 0px 0px;
+}
+.product-details .color-storage .color{
+	width:310px;
+	height:100px;
+	 
+}
+.product-details .color-storage .storage{
+	width:310px;
+	height:100px;
+	 
+}
+.product-details .available-seller{
+	//border:1px solid black;
+	width:auto;
+	height:70px;
+	margin:5px 0px 0px 0px;
+	padding: 20px 30px 21px 160px;
+	
+}
+.product-details .totalprice-emi{
+	width:auto;
+	height:70px;
+	margin:5px 0px 0px 0px;
+	padding: 20px 30px 21px 1px;	
+}
+
+.product-details .addtocart-buy{
+	margin:25px 0px 0px 5px;
+}
+.product-details .seller-delivery-info{
+	border:1px solid black;
+	margin:30px 0px 0px 0px;
+	height:150px;
+}
+.vline{
+	border:1px solid gray;
+	height:1px;
+	width:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	overflow:hidden;
 }

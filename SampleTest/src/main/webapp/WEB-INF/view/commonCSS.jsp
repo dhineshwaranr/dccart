@@ -14,6 +14,7 @@
 
 <link rel="stylesheet" href="<c:url value='/resources/css/default/bootstrap-combined.min.css'/>" type="text/css" />
 <link rel="stylesheet" href="<c:url value='/resources/css/default/bootstrap.min.css'/>" type="text/css" />
+<link rel="stylesheet" href="<c:url value='/resources/css/fonts/font-awesome.min.css'/>" type="text/css" />
 <link rel="stylesheet" href="<c:url value='/resources/css/sample.css'/>" type="text/css" />
 <link rel="stylesheet" href="<c:url value='/resources/css/common.css'/>" type="text/css" />
 

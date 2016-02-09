@@ -13,5 +13,22 @@ public class HomeController {
 		model.setViewName("home");
 		return model;
 	}
-
+	@RequestMapping("/mobiles")
+	public ModelAndView testProductMain(){
+		ModelAndView model = new ModelAndView();
+		model.setViewName("products/electronics/main");
+		return model;
+	}
+	@RequestMapping("/productbrand")
+	public ModelAndView productBrandPage(){
+		ModelAndView model = new ModelAndView();
+		model.setViewName("products/electronics/productbrand");
+		return model;
+	}
+	@RequestMapping("/productmainpage")
+	public ModelAndView productMainPage(){
+		ModelAndView model = new ModelAndView();
+		model.setViewName("products/electronics/productmainpage");
+		return model;
+	}	
 }
