@@ -197,36 +197,52 @@ a {
 								</div>
 								<div class="features-warrenty">
 									<div class="features">
-										features
+										<div class="feature-description">
+											<ul>
+												<li>Dual SIM (4G + 4G)</li>
+												<li>5 Inch HD TFT Display</li>
+												<li>8MP | 5MP Camera</li>
+												<li>2600 mAh Battery</li>
+											</ul>
+										</div>
 									</div>
-									<div  lass="warrenty">
-										warrenty
+									<div  class="warrenty">
+										<b>WARRANTY</b><br>
+										<span>1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories</span>
 									</div>
 								</div>
 								<div class="color-storage-accessories">
 									<div class="color">
-										color
+										<span>Color</span><br>
+										<div class="whiteColor">
+											<a><img src="resources/images/mainproduct/mobile/samsung-galaxy-on7-sm-g600f-40x40-imaecqkgfgtmaw2y.jpeg"alt ="color"></a>
+										</div>
+										<div class="blackColor">
+											<a><img src="resources/images/mainproduct/mobile/samsung-galaxy-on7-sm-g600f-40x40-imaecqkgzeuz9ebn-white.jpeg"alt ="color"></a>
+										</div>
 									</div>
-									<div  lass="storage">
-										storage
+									<div class="storage">
+										<span>Storage</span><br>
+										<div class="available-storage"><span>8GB</span></div>
+										
 									</div>
 									<div class="accessories">
-										accessories
+										<a>View Compatible Accessories</a>
 									</div>
 								</div>
 								<div class="available-seller">
-									<div class="seller">Avaliable with one seller</div>
+									<div class="seller"><span>Avaliable with 1 Seller at 560034</span>&nbsp&nbsp&nbsp<a>Change</a></div>
 								</div>
 								<div class="available-exchange-offer">
 									<div class="withoutExahange">Without Exchange<span>Rs. 10000</span></div>
-									<div class="withoutExahange">With Exchange<span>Rs. 6000</span></div>
+									<div class="withExahange">With Exchange<span>Rs. 6000</span></div>
 								</div>
 								<div class="totalprice-emi">
 									<div class="total-price"><span>Rs. 10000</span><br><span>MRP</span></div>
 									<div class="emi"><span>EMI starts from Rs.533 ?</span></div>
 								</div>
 								<div class="addtocart-buy">
-									<div class="addtocart"><button type="button" class="btn btn-warning">ADD TO CART</butto</div>
+									<div class="addtocart"><button type="button" class="btn btn-warning">ADD TO CART</button></div>
 									<div class="buynow"><button type="button" class="btn btn-success">BUY NOW</button></div>
 								</div>
 								<div class="seller-delivery-info">

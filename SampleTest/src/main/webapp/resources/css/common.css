@@ -500,37 +500,92 @@ fieldset, label { margin: 0; padding: 0; }
 /**/
 
 .product-details .features-warrenty{
-	//border:1px solid black;
+	
 	width:auto;
 	height:100px;
 	margin:5px 0px 0px 0px;
+	display: inline-flex;
 }
 .product-details .features-warrenty .features{
-	width:310px;
+	font-size:10px; 
+	width:300px;
 	height:100px;
-	display:inline;
+	 
+	color:gray;
 }
 .product-details .features-warrenty .warrenty{
-	width:310px;
+	width:auto;
 	height:100px;
-	display:inline;
+	
+	color:gray;
+}
+.product-details .features-warrenty .warrenty span{
+	font-size:10px;
+	
 }
 
-.product-details .color-storage{
-	//border:1px solid black;
+.product-details .color-storage-accessories{
 	width:auto;
 	height:100px;
 	margin:5px 0px 0px 0px;
+	display: inline-flex;
 }
-.product-details .color-storage .color{
+.product-details .color-storage-accessories .color{
+	//border:1px solid black;
 	width:310px;
 	height:100px;
-	 
+	font:15px;
+	color:gray; 
+	display: inline-flex; 
+	
 }
-.product-details .color-storage .storage{
+
+.product-details .color-storage-accessories .color .whiteColor{
+	/*  background-image: url("../../resources/images/mainproduct/mobile/samsung-galaxy-on7-sm-g600f-40x40-imaecqkgfgtmaw2y.jpeg");
+	 background-repeat: no-repeat; */
+	 width:40px;
+	 height:50px;
+	 margin:10px 0px 10px 10px;
+	 border:1px solid gray;
+	 padding: 5px 3px 2px 6px;
+}
+.product-details .color-storage-accessories .color .whiteColor:hover{
+	 border:1px solid yellow;
+}
+.product-details .color-storage-accessories .color .blackColor:hover{
+	 border:1px solid yellow;
+}
+.product-details .color-storage-accessories .color .blackColor{
+	/*  background-image: url("../../resources/images/mainproduct/mobile/samsung-galaxy-on7-sm-g600f-40x40-imaecqkgzeuz9ebn-white.jpeg");
+	 background-repeat: no-repeat; */
+		width:40px;
+	 height:50px;
+	 margin:10px 0px 10px 10px;
+	 border:1px solid gray;
+	 padding: 5px 3px 2px 6px;
+}
+.product-details .color-storage-accessories .storage{
 	width:310px;
 	height:100px;
-	 
+	
+}
+
+.product-details .color-storage-accessories .storage .available-storage{
+	width:47px;
+	height:27px;
+	border:1px solid gray;
+	padding: 2px;
+}
+.product-details .color-storage-accessories .accessories a{
+	color:gray;
+	font-size:12px;
+	cursor:pointer;
+}
+.product-details .color-storage-accessories .storage .available-storage:hover{
+	border:1px solid yellow;
+}
+.product-details .color-storage-accessories .storage .available-storage span{
+	padding: 0px 3px 4px 7px;
 }
 .product-details .available-seller{
 	//border:1px solid black;
@@ -539,6 +594,27 @@ fieldset, label { margin: 0; padding: 0; }
 	margin:5px 0px 0px 0px;
 	padding: 20px 30px 21px 160px;
 	
+}
+.product-details .available-seller a{
+	color:#0099FF;
+	cursor:pointer;
+}
+.product-details .available-exchange-offer{
+	display:inline-flex;
+}
+.product-details .available-exchange-offer .withoutExahange{
+	width:210px;
+	height:55px;
+	border-top: 1px solid gray;
+  	border-right:  1px solid gray; 
+  	border-left: 1px solid gray;
+}
+.product-details .available-exchange-offer .withExahange{
+	width:210px;
+	height:55px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+}	
 }
 .product-details .totalprice-emi{
 	width:auto;
